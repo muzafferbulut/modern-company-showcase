@@ -54,7 +54,7 @@ corporate-brand-portal/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/muzafferbulut/corporate-brand-portal.git](https://github.com/muzafferbulut/modern-company-showcase.git)
+git clone https://github.com/muzafferbulut/modern-company-showcase.git
 cd modern-company-showcase
 ```
 
