@@ -1,4 +1,4 @@
-# 🏢 Corporate Brand Portal & CMS
+# 🏢 Modern Company Showcase
 
 > **A decoupled full-stack web application designed for managing corporate identity, services, and dynamic content.**
 
@@ -47,3 +47,44 @@ corporate-brand-portal/
     │   ├── components/     # UI Components
     │   ├── hooks/          # Custom React Hooks
     │   └── pages/          # Route Views
+```
+
+## Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/muzafferbulut/corporate-brand-portal.git](https://github.com/muzafferbulut/modern-company-showcase.git)
+cd modern-company-showcase
+```
+
+### 2. Backend Setup (Django)
+
+```bash
+cd marka_backend
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Migrations & Server
+python manage.py migrate
+python manage.py runserver
+# API will run at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+```
+
+### 3. Frontend Setup (React)
+
+```bash
+cd ../marka_frontend
+
+# Install dependencies
+npm install
+
+# Start the application
+npm start
+# Client will run at http://localhost:3000/
+```
